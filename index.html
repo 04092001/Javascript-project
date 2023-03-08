@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="stylesheet.css" />
     <script src="script.js"></script>
-    <title>To Do List</title>
+    <title>Title</title>
   </head>
   <body>
-    <input id="todo-title" type="text" />
-    <input id="date-picker" type="date" />
-    <button onclick="addTodo()">Add List Item</button>
-    <div id="todo-list"></div>
+    <button type="button" onclick="expand()" id="show">Show div</button>
+    <button type="button" onclick="collapse()" id="hide">Hide div</button>
+    <div id="section" style="display: none">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus totam
+      voluptatum rem at, eius iste vitae, debitis a laudantium nesciunt nobis
+      sunt molestias recusandae voluptate non. Pariatur voluptate nesciunt vel.
+    </div>
   </body>
 </html>
